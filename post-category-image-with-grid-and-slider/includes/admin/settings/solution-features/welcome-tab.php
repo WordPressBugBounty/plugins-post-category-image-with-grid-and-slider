@@ -14,14 +14,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="pciwgas_welcome_tabs" class="pciwgas-vtab-cnt pciwgas_welcome_tabs pciwgas-clearfix">
 	
-	<div class="pciwgas-deal-offer-wrap">
+
+
+	<!-- <div class="pciwgas-deal-offer-wrap">
 		<h3 style="font-weight: bold; font-size: 30px; color:#ffef00; text-align:center; margin: 15px 0 5px 0;">Why Invest Time On Free Version?</h3>
 
 		<h3 style="font-size: 18px; text-align:center; margin:0; color:#fff;">Explore Post Category Image with Essential Bundle Free for 5 Days.</h3>			
 
 		<div class="pciwgas-deal-free-offer">
-			<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+			<a href="<?php //echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 		</div>
+	</div> -->
+
+	<div class="pciwgas-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( PCIWGAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 	<!-- Start - Welcome Box -->

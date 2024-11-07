@@ -12,8 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 <div id="pciwgas_basic_tabs" class="pciwgas-vtab-cnt pciwgas_basic_tabs pciwgas-clearfix">
-	<!-- <h3 style="text-align:center">Compare <span class="pciwgas-blue">"Post Category Image"</span> Free VS Pro</h3> -->
-
 	<!-- <div class="pciwgas-deal-offer-wrap">
 		<div class="pciwgas-deal-offer"> 
 			<div class="pciwgas-inn-deal-offer">
@@ -28,16 +26,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="pciwgas-deal-offer-wrap">
+	<!-- <div class="pciwgas-deal-offer-wrap">
 		<div class="pciwgas-deal-offer"> 
 			<div class="pciwgas-inn-deal-offer">
 				<h3 class="pciwgas-inn-deal-hedding"><span>Try Post Category Image</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="pciwgas-deal-free-offer">
-				<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="pciwgas-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( PCIWGAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
+	<h3 style="text-align:center">Compare <span class="pciwgas-blue">"Post Category Image"</span> Free VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -167,15 +171,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="pciwgas-deal-offer-wrap">
+	<!-- <div class="pciwgas-deal-offer-wrap">
 		<div class="pciwgas-deal-offer"> 
 			<div class="pciwgas-inn-deal-offer">
 				<h3 class="pciwgas-inn-deal-hedding"><span>Try Post Category Image</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="pciwgas-deal-free-offer">
-				<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="pciwgas-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( PCIWGAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 </div>

@@ -7,7 +7,7 @@
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/post-category-image-grid-slider/
  * Text Domain: post-category-image-with-grid-and-slider
  * Domain Path: languages
- * Version: 1.5
+ * Version: 1.5.1
  * 
  * @package Post Category Image With Grid and Slider
  * @author Essential Plugin
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 if( ! defined( 'PCIWGAS_VERSION' ) ) {
-	define( 'PCIWGAS_VERSION', '1.5' ); // Version of plugin
+	define( 'PCIWGAS_VERSION', '1.5.1' ); // Version of plugin
 }
 
 // if( ! defined( 'PCIWGAS_WP_VERSION' ) ) {
@@ -68,11 +68,11 @@ if( ! defined( 'PCIWGAS_META_PREFIX' ) ) {
 // }
 
 if( ! defined( 'PCIWGAS_PLUGIN_BUNDLE_LINK' ) ) {
-	define('PCIWGAS_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Welcome-Screen'); // Plugin link
+	define('PCIWGAS_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'PCIWGAS_PLUGIN_LINK_UNLOCK' ) ) {
-	define('PCIWGAS_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Features-PRO'); // Plugin link
+	define('PCIWGAS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

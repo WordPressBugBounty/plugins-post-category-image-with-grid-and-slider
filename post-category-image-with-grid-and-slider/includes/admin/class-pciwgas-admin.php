@@ -40,7 +40,7 @@ class Pciwgas_Admin {
 		add_submenu_page( 'pciwgas-settings', __( 'Solutions & Features - Post Category Image With Grid and Slider', 'post-category-image-with-grid-and-slider' ), '<span style="color:#2ECC71">'.__( 'Solutions & Features', 'post-category-image-with-grid-and-slider' ).'</span>', 'manage_options', 'pciwgas-solutions-features', array( $this, 'pciwgas_solutions_features_page' ) );
 
 		// Register plugin premium page
-		add_submenu_page( 'pciwgas-settings', __( 'Upgrade To Premium - Post Category Image With Grid and Slider', 'post-category-image-with-grid-and-slider' ), '<span style="color:#ff2700">'.__( 'Upgrade To Premium - Try Pro For 5 Days Free', 'post-category-image-with-grid-and-slider' ).'</span>', 'manage_options', 'pciwgas-premium', array( $this, 'pciwgas_premium_page' ) );
+		add_submenu_page( 'pciwgas-settings', __( 'Upgrade To Premium - Post Category Image With Grid and Slider', 'post-category-image-with-grid-and-slider' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'post-category-image-with-grid-and-slider' ).'</span>', 'manage_options', 'pciwgas-premium', array( $this, 'pciwgas_premium_page' ) );
 	}
 
 	/**

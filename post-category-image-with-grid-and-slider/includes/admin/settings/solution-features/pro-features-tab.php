@@ -13,6 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="pciwgas_themes_tabs" class="pciwgas-vtab-cnt pciwgas_themes_tabs pciwgas-clearfix">
+	
+	<div class="pciwgas-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( PCIWGAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<!-- Start - WP News and Scrolling Widgets - Features -->
 	<div class="pciwgas-features-section">
 		<div class="pciwgas-sf-center">
@@ -50,15 +55,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="pciwgas-deal-offer-wrap">
+	<!-- <div class="pciwgas-deal-offer-wrap">
 		<div class="pciwgas-deal-offer"> 
 			<div class="pciwgas-inn-deal-offer">
 				<h3 class="pciwgas-inn-deal-hedding"><span>Try Post Category Image</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="pciwgas-deal-free-offer">
-				<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="pciwgas-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 </div>
