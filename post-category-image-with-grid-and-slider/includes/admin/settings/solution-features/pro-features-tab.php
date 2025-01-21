@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="pciwgas_themes_tabs" class="pciwgas-vtab-cnt pciwgas_themes_tabs pciwgas-clearfix">
 	
-	<div class="pciwgas-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( PCIWGAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="pciwgas-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( PCIWGAS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( PCIWGAS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<!-- Start - WP News and Scrolling Widgets - Features -->
 	<div class="pciwgas-features-section">

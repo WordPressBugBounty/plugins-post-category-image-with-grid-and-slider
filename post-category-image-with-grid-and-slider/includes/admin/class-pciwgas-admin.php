@@ -37,10 +37,10 @@ class Pciwgas_Admin {
 		add_menu_page( __('Category Image', 'post-category-image-with-grid-and-slider'), __('Category Image', 'post-category-image-with-grid-and-slider'), 'manage_options', 'pciwgas-settings', array( $this, 'pciwgas_settings_page' ), 'dashicons-feedback' );
 
 		// Register plugin premium page
-		add_submenu_page( 'pciwgas-settings', __( 'Solutions & Features - Post Category Image With Grid and Slider', 'post-category-image-with-grid-and-slider' ), '<span style="color:#2ECC71">'.__( 'Solutions & Features', 'post-category-image-with-grid-and-slider' ).'</span>', 'manage_options', 'pciwgas-solutions-features', array( $this, 'pciwgas_solutions_features_page' ) );
+		add_submenu_page( 'pciwgas-settings', __( 'Overview - Post Category Image With Grid and Slider', 'post-category-image-with-grid-and-slider' ), __( 'Overview', 'post-category-image-with-grid-and-slider' ), 'manage_options', 'pciwgas-solutions-features', array( $this, 'pciwgas_solutions_features_page' ) );
 
 		// Register plugin premium page
-		add_submenu_page( 'pciwgas-settings', __( 'Upgrade To Premium - Post Category Image With Grid and Slider', 'post-category-image-with-grid-and-slider' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'post-category-image-with-grid-and-slider' ).'</span>', 'manage_options', 'pciwgas-premium', array( $this, 'pciwgas_premium_page' ) );
+		add_submenu_page( 'pciwgas-settings', __( 'Upgrade To Premium - Post Category Image With Grid and Slider', 'post-category-image-with-grid-and-slider' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'post-category-image-with-grid-and-slider' ).'</span>', 'manage_options', 'pciwgas-premium', array( $this, 'pciwgas_premium_page' ) );
 	}
 
 	/**

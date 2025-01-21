@@ -7,7 +7,7 @@
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/post-category-image-grid-slider/
  * Text Domain: post-category-image-with-grid-and-slider
  * Domain Path: languages
- * Version: 1.5.1
+ * Version: 1.5.2
  * 
  * @package Post Category Image With Grid and Slider
  * @author Essential Plugin
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 if( ! defined( 'PCIWGAS_VERSION' ) ) {
-	define( 'PCIWGAS_VERSION', '1.5.1' ); // Version of plugin
+	define( 'PCIWGAS_VERSION', '1.5.2' ); // Version of plugin
 }
 
 // if( ! defined( 'PCIWGAS_WP_VERSION' ) ) {

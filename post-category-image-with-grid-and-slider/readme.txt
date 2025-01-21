@@ -2,9 +2,9 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, ridhimashukla, patelketan
 Tags: category, category image, post category image, post category image grid, post category image slider
 Requires at least: 3.5
-Tested up to: 6.6.2
+Tested up to: 6.7.1
 Author URI: https://www.essentialplugin.com
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -151,6 +151,9 @@ exclude_cat="" ( Exclude specific Category id. Values are Comma separated Catego
 3. Output in Grid and Slider.
 
 == Changelog ==
+
+= 1.5.2 (21, January 2025) =
+* [*] Check compatibility to WordPress version 6.7.1
 
 = 1.5.1 (07, Nov 2024) =
 * [*] Update - Check compatibility to WordPress version 6.6.2
