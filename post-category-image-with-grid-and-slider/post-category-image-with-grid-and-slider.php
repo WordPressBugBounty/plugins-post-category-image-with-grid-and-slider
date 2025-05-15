@@ -3,11 +3,11 @@
  * Plugin Name: Post Category Image With Grid and Slider
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/post-category-image-grid-slider/
  * Description: Post Category Image With Grid and Slider plugin allow users to upload  category (taxonomy) image and display in grid and slider view. Also work with Gutenberg shortcode block.
- * Author: WP OnlineSupport, Essential Plugin
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/post-category-image-grid-slider/
+ * Author: Essential Plugin
+ * Author URI: https://www.essentialplugin.com
  * Text Domain: post-category-image-with-grid-and-slider
  * Domain Path: languages
- * Version: 1.5.2
+ * Version: 1.5.3
  * 
  * @package Post Category Image With Grid and Slider
  * @author Essential Plugin
@@ -17,23 +17,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
- /**
+/**
  * Basic plugin definitions
  * 
  * @package Post Category Image With Grid and Slider
  * @since 1.0.0
  */
 if( ! defined( 'PCIWGAS_VERSION' ) ) {
-	define( 'PCIWGAS_VERSION', '1.5.2' ); // Version of plugin
+	define( 'PCIWGAS_VERSION', '1.5.3' ); // Version of plugin
 }
-
-// if( ! defined( 'PCIWGAS_WP_VERSION' ) ) {
-// 	define( 'PCIWGAS_WP_VERSION', get_bloginfo('version') ); 
-// }
-
-// if( ! defined( 'PCIWGAS_NAME' ) ) {
-// 	define( 'PCIWGAS_NAME', 'Post Category Image With Grid and Slider' ); // Name of plugin
-// }
 
 if( ! defined( 'PCIWGAS_URL' ) ) {
 	define( 'PCIWGAS_URL', plugin_dir_url( __FILE__ ) ); // Plugin url
@@ -43,29 +35,9 @@ if( ! defined( 'PCIWGAS_DIR' ) ) {
 	define( 'PCIWGAS_DIR', dirname( __FILE__ ) ); // Plugin dir
 }
 
-// if( ! defined( 'PCIWGAS_PLUGIN_BASE' ) ) {
-// 	define( 'PCIWGAS_PLUGIN_BASE',  plugin_dir_path(__FILE__)); // plugin base
-// }
-
 if( ! defined( 'PCIWGAS_META_PREFIX' ) ) {
 	define( 'PCIWGAS_META_PREFIX',  '_pciwgas_'); // plugin base
 }
-
-// if( ! defined( 'PCIWGAS_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define( 'PCIWGAS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/wordpress-plugin/post-category-image-grid-slider/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Features-PRO#wpos-epb' ); // Plugin link
-// }
-
-// if( ! defined( 'PCIWGAS_PLUGIN_UPGRADE' ) ) {
-// 	define('PCIWGAS_PLUGIN_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Upgrade-PRO#wpos-epb'); // Plugin Check link
-// }
-
-// if( ! defined( 'PCIWGAS_PLUGIN_WELCOME' ) ) {
-// 	define('PCIWGAS_PLUGIN_WELCOME','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Welcome-Screen#wpos-epb'); // Plugin Check link
-// }
-
-// if( ! defined( 'PCIWGAS_SITE_LINK' ) ) {
-// 	define('PCIWGAS_SITE_LINK', 'https://www.essentialplugin.com'); // Plugin link
-// }
 
 if( ! defined( 'PCIWGAS_PLUGIN_BUNDLE_LINK' ) ) {
 	define('PCIWGAS_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Welcome-Screen'); // Plugin link

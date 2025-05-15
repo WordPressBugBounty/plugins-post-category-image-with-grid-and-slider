@@ -1,14 +1,14 @@
 === Post Category Image With Grid and Slider ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, ridhimashukla, patelketan
+Contributors: essentialplugin
 Tags: category, category image, post category image, post category image grid, post category image slider
-Requires at least: 3.5
-Tested up to: 6.7.1
+Requires at least: 4.0
+Tested up to: 6.8.1
 Author URI: https://www.essentialplugin.com
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Post Category Image With Grid and Slider plugin allow users to upload  category image and display in grid and slider. Also work with Gutenberg shortcode block.
+Post Category Image With Grid and Slider allow users to upload category image and display in grid and slider via shortcode or Gutenberg block.
 
 == Description ==
 [Explore Post Category Image Features](https://demo.essentialplugin.com/post-category-image-with-grid-and-slider-demo/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Read-Me) | [Annual or Lifetime Bundle Deal](https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Post-Category-Image&utm_campaign=Read-Me)
@@ -151,6 +151,9 @@ exclude_cat="" ( Exclude specific Category id. Values are Comma separated Catego
 3. Output in Grid and Slider.
 
 == Changelog ==
+
+= 1.5.3 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 1.5.2 (21, January 2025) =
 * [*] Check compatibility to WordPress version 6.7.1
